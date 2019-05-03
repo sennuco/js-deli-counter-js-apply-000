@@ -9,6 +9,6 @@ function  nowServing(numberInline){
   else{
     var first = numberInline[0];
     numberInline.shift();
-    return "Currently serving"+ first +".";
+    return "Currently serving "+ first +".";
   }
 }
