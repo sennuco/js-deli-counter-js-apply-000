@@ -6,4 +6,7 @@ function  nowServing(numberInline){
   if(numberInline.length < 1){
     return "There is nobody waiting to be served!"
   }
+  else{
+    
+  }
 }
