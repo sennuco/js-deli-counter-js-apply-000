@@ -7,6 +7,6 @@ function  nowServing(numberInline){
     return "There is nobody waiting to be served!"
   }
   else{
-    
+    ""
   }
 }
