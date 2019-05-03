@@ -13,6 +13,10 @@ function  nowServing(numberInline){
   }
 }
 function currentLine(numberInline){
-  var stringToReturn = ""
+  var stringToReturn = "The line is currently:";
+  for(var i; i < numberInline.length; i++){
+    stringToReturn += (i+1) + ". " + numberInline[i];
+    if(i == numberInline.length - 1)
+  }
   
 }
