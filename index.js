@@ -15,13 +15,15 @@ function  nowServing(numberInline){
 function currentLine(numberInline){
   var stringToReturn = "";
   var stringBuilt =  "The line is currently:";
-  if(numberInline.length == 0){
-    stringToReturn = 
+  if(numberInline.length === 0){
+    stringToReturn = "The line is currently empty"
   }
-  for(var i; i < numberInline.length; i++){
-    stringBuilt += (i+1) + ". " + numberInline[i]+",";
-  }
+  else{
+    for(var i; i < numberInline.length; i++){
+      stringBuilt += (i+1) + ". " + numberInline[i]+",";
+    }
   
+  }
   return stringToReturn
   
 }
