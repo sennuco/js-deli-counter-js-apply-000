@@ -8,6 +8,6 @@ function  nowServing(numberInline){
   }
   else{
     var first = numberInline[0];
-    
+    nam
   }
 }
