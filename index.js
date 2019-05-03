@@ -4,6 +4,6 @@ function takeANumber(numberInline,customerName){
 }
 function  nowServing(numberInline){
   if(numberInline.length < 1){
-    return ""
+    return "There is nobody waiting to be served!"
   }
 }
