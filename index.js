@@ -7,6 +7,7 @@ function  nowServing(numberInline){
     return "There is nobody waiting to be served!"
   }
   else{
-    ""
+    var first = numberInline[0];
+    
   }
 }
