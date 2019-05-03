@@ -12,3 +12,7 @@ function  nowServing(numberInline){
     return "Currently serving "+ first +".";
   }
 }
+function currentLine(numberInline){
+  var stringToReturn = ""
+  
+}
