@@ -16,10 +16,10 @@ function currentLine(numberInline){
   var stringToReturn = "";
   var stringBuilt =  "The line is currently:";
   if(numberInline.length === 0){
-    stringToReturn = "The line is currently empty"
+    stringToReturn = "The line is currently empty."
   }
   else{
-    for(var i; i < numberInline.length; i++){
+    for(var i = 0; i < numberInline.length; i++){
       stringBuilt += (i+1) + ". " + numberInline[i]+",";
     }
     stringToReturn = stringBuilt.substring(0, stringBuilt.length - 1); 
