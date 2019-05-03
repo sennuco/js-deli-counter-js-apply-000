@@ -1,3 +1,4 @@
-function takeANumber(katzDeli, name){
-  return "Welcome, "+ name +". You are number "+ (katzDeli.length+1)+" in line."
+function takeANumber(numberInline,customerName){
+  
+  return "Welcome,"+ customerName + "You are number" + numberInline +"in line."
 }
