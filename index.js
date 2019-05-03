@@ -20,7 +20,7 @@ function currentLine(numberInline){
   }
   else{
     for(var i = 0; i < numberInline.length; i++){
-      stringBuilt += (i+1) + ". " + numberInline[i]+",";
+      stringBuilt += " " + (i+1) + ". " + numberInline[i]+",";
     }
     stringToReturn = stringBuilt.substring(0, stringBuilt.length - 1); 
   
