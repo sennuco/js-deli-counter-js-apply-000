@@ -22,7 +22,7 @@ function currentLine(numberInline){
     for(var i; i < numberInline.length; i++){
       stringBuilt += (i+1) + ". " + numberInline[i]+",";
     }
-    stringToReturn = stringBuilt
+    stringToReturn = stringBuilt.substring(0, stringBuilt.length - 1); 
   
   }
   return stringToReturn
