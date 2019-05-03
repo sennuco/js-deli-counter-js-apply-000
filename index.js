@@ -1,3 +1,3 @@
-function takeANumber(namesList, name){
+function takeANumber(namesLine, name){
   
 }
